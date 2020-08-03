@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<DR_StickLantern.label>등불 막대</DR_StickLantern.label>
-
-	<DR_StickLantern.description>간단한 막대에 달린 등불. 따듯하고 은은하게 빛납니다.</DR_StickLantern.description>
-
+  <DR_StickLantern.label>등불 막대</DR_StickLantern.label>
+  <DR_StickLantern.description>간단한 막대에 달린 등불. 따듯하고 은은하게 빛납니다.</DR_StickLantern.description>
 </LanguageData>

@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<DR_StickLantern.label>Stick Lantern</DR_StickLantern.label>
+  <DR_StickLantern.label>Stick Lantern</DR_StickLantern.label>
+  <DR_StickLantern.description>Simple stick lantern. It glows warmly and gently.</DR_StickLantern.description>
+  <DR_StickLantern_Blueprint.label>Stick Lantern (blueprint)</DR_StickLantern_Blueprint.label>
+  <DR_StickLantern_Frame.label>Stick Lantern (building)</DR_StickLantern_Frame.label>
+  <DR_StickLantern_Frame.description>Simple stick lantern. It glows warmly and gently.</DR_StickLantern_Frame.description>
 
-	<DR_StickLantern.description>Simple stick lantern. It glows warmly and gently.</DR_StickLantern.description>
 
 </LanguageData>

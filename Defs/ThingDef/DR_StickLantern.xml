@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>DR_StickLantern</defName>
     <label>Stick Lantern</label>
     <description>Simple stick lantern. It glows warmly and gently.</description>
@@ -29,12 +27,12 @@
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>500</WorkToBuild>
       <Flammability>0</Flammability>
-	  <Beauty>5</Beauty>
+      <Beauty>5</Beauty>
     </statBases>
     <selectable>true</selectable>
     <costList>
       <WoodLog>20</WoodLog>
-	  <Steel>20</Steel>
+      <Steel>20</Steel>
     </costList>
     <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -67,5 +65,4 @@
     </comps>
     <designationCategory>Furniture</designationCategory>
   </ThingDef>
-
 </Defs>
