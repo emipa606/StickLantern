@@ -52,6 +52,7 @@
           </thingDefs>
         </fuelFilter>
         <initialFuelPercent>1</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>8</glowRadius>
