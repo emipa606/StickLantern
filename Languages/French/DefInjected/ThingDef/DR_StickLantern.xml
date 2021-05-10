@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DR_StickLantern.label>Lanterne</DR_StickLantern.label>
+  <DR_StickLantern.description>Une simple lanterne sur un mât. Offre une lumière douce et chaleureuse.</DR_StickLantern.description>
+  <DR_StickLantern_Blueprint.label>Lanterne (plan)</DR_StickLantern_Blueprint.label>
+  <DR_StickLantern_Frame.label>Stick Lanterne (construction)</DR_StickLantern_Frame.label>
+  <DR_StickLantern_Frame.description>Une simple lanterne sur un mât. Offre une lumière douce et chaleureuse.</DR_StickLantern_Frame.description>
+</LanguageData>

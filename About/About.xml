@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Stick Lantern (Continued)</name>
   <packageId>Mlie.StickLantern</packageId>
@@ -11,16 +11,24 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>Update of Dalraes mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Dalraes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1355773454
 
-Support-chat:
-https://invite.gg/Mlie
+- Added refuel-toggle
+- French translation added, thanks qux!
 
-Non-steam version:
-https://github.com/emipa606/StickLantern
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/StickLantern][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 update B19
 
 Add a new light source, stick lantern
@@ -31,7 +39,20 @@ It's longer than a torch and it does not turn off when it rains !!!
 
 I think it's compatible with existing save files.
 
-Languages: English, ???, ???, ????,
+Languages: English, 한국어, 日本語, 简体中文,
 
-Thanks Google translation!</description>
+Thanks Google translation!
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
