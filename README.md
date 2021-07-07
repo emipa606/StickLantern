@@ -29,9 +29,9 @@ Add a new light source, stick lantern
 
 It is constructed with 20 pieces of wood and 20 pieces of steel.
 
-It's longer than a torch and it does not turn off when it rains !!!
+It&apos;s longer than a torch and it does not turn off when it rains !!!
 
-I think it's compatible with existing save files.
+I think it&apos;s compatible with existing save files.
 
 Languages: English, 한국어, 日本語, 简体中文,
 
@@ -48,6 +48,7 @@ Thanks Google translation!
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
