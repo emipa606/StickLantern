@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Darktorch"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <ThingDef ParentName="BuildingBase">
+          <defName>DR_StickLanternDarklight</defName>
+          <label>Darklight Stick Lantern</label>
+          <description>Simple stick lantern. It glows with darklight.</description>
+          <category>Building</category>
+          <graphicData>
+            <texPath>Things/Building/StickLanternDarklight</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawRotated>true</drawRotated>
+            <damageData>
+              <rect>(0.35,0.35,0.3,0.3)</rect>
+            </damageData>
+          </graphicData>
+          <uiIconPath>Things/Building/StickLanternDarklight_north</uiIconPath>
+          <uiIconScale>0.85</uiIconScale>
+          <rotatable>true</rotatable>
+          <altitudeLayer>Building</altitudeLayer>
+          <passability>PassThroughOnly</passability>
+          <pathCost>8</pathCost>
+          <constructEffect>ConstructWood</constructEffect>
+          <tickerType>Normal</tickerType>
+          <drawerType>RealtimeOnly</drawerType>
+          <fillPercent>0.15</fillPercent>
+          <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>500</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Beauty>5</Beauty>
+          </statBases>
+          <selectable>true</selectable>
+          <costList>
+            <WoodLog>20</WoodLog>
+            <Steel>20</Steel>
+          </costList>
+          <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+          <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+          <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+          <placeWorkers>
+            <li>PlaceWorker_Heater</li>
+          </placeWorkers>
+          <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+          <comps>
+            <li Class="CompProperties_Refuelable">
+              <fuelConsumptionRate>0.75</fuelConsumptionRate>
+              <fuelCapacity>15.0</fuelCapacity>
+              <fuelConsumptionPerTickInRain>0.0</fuelConsumptionPerTickInRain>
+              <fuelFilter>
+                <thingDefs>
+                  <li>WoodLog</li>
+                </thingDefs>
+              </fuelFilter>
+              <initialFuelPercent>1</initialFuelPercent>
+              <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+            <li Class="CompProperties_Glower">
+              <glowRadius>6</glowRadius>
+              <glowColor>(78, 226, 229, 0)</glowColor>
+            </li>
+            <li Class="CompProperties_HeatPusher">
+              <compClass>CompHeatPusherPowered</compClass>
+              <heatPerSecond>2</heatPerSecond>
+              <heatPushMaxTemperature>23</heatPushMaxTemperature>
+            </li>
+          </comps>
+          <designationCategory>Furniture</designationCategory>
+        </ThingDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>

@@ -7,6 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1355773454
 
 - Added refuel-toggle
 - French translation added, thanks qux!
+- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
