@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef/comps/li [@Class="CompProperties_MeditationFocus"]/offsets/li [@Class="FocusStrengthOffset_BuildingDefsLit"]/defs</xpath>
+    <value>
+      <li>DR_StickLantern</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">DR_DarkStickLantern</li>
+    </value>
+  </Operation>
+</Patch>
