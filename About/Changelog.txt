@@ -1,5 +1,8 @@
 # Changelog for StickLantern
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.3.2 - Better patching and added meditation focus, thanks to Velcroboy333
 
 
