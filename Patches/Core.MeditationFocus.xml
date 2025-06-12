@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef/comps/li [@Class="CompProperties_MeditationFocus"]/offsets/li [@Class="FocusStrengthOffset_BuildingDefsLit"]/defs</xpath>

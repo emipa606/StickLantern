@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Stick Lantern (blueprint) -->
+  <Blueprint_DR_StickLantern.label>Stick Lantern (blueprint)</Blueprint_DR_StickLantern.label>
+  <!-- EN: Stick Lantern (building) -->
+  <Frame_DR_StickLantern.label>Stick Lantern (building)</Frame_DR_StickLantern.label>
+  <!-- EN: Simple stick lantern. It glows warmly and gently. -->
+  <Frame_DR_StickLantern.description>Simple stick lantern. It glows warmly and gently.</Frame_DR_StickLantern.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Darklight Stick Lantern -->
+  <DR_DarkStickLantern.label>Darklight Stick Lantern</DR_DarkStickLantern.label>
+  <!-- EN: Simple stick lantern. It glows with darklight. -->
+  <DR_DarkStickLantern.description>Simple stick lantern. It glows with darklight.</DR_DarkStickLantern.description>
+  <!-- EN: Stick Lantern -->
+  <DR_StickLantern.label>Stick Lantern</DR_StickLantern.label>
+  <!-- EN: Simple stick lantern. It glows warmly and gently. -->
+  <DR_StickLantern.description>Simple stick lantern. It glows warmly and gently.</DR_StickLantern.description>
+</LanguageData>
